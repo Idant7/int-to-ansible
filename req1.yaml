@@ -12,7 +12,7 @@
          - 10 deny tcp any any eq telnet
          - 20 permit ip any any
                   
-   - name: Apply new ACL to R2 eth0/1 out
+   - name: Apply new ACL to R2 Eth0/1 out
      ios_config:
        parents: int e0/1
        lines:
